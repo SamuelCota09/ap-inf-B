@@ -3,12 +3,22 @@
 
 # c = comprimento
 
-c = int(input("Qual é o comprimento do retângulo?\n"))
+c = float(input("Qual é o comprimento do retângulo?\n"))
 
 # l = largura
 
-l = int(input("Qual é a largura do retângulo?\n"))
+l = float(input("Qual é a largura do retângulo?\n"))
 
 area = c*l
 
-print("A área do retângulo com ", c, "de comprimento e", l, "de largura é ", area)
+
+
+# print(f..., {x: .nf}), rounds x to n decimal points
+
+print("\nA área do retângulo com ", c, "de comprimento e", l, f"de largura é {area:.2f}")
+
+
+
+
+
+
