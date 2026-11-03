@@ -47,10 +47,13 @@ lista.append("pêra")
 
 lista.remove("banana")
 
-- Tuple
+```
 
-# tuples são ordenada e imutáveis
+### Tuple (`tuple`)
 
+ tuples são ordenada e imutáveis
+
+```python
 coordenadas = (38.65, -27.22)
 
 print(coordenadas)
@@ -59,11 +62,11 @@ latitude = coordenadas[0]
 
 longitude = coordenadas[1]
 
-- Set
+```
 
-E.g.:
-# sets não há repetidos
-
+### Set (`set`)
+ sets não há repetidos
+```python
 notas = [1,2,2,3,4,4,5]
 
 print(notas)
@@ -75,13 +78,16 @@ print(notas_set)
 conjunto.add("")
 
 conjunto.remove("")
-- Dictionary
 
-# Dicionários
+```
 
-# Chave -> valor: dados associados
+### Dictionary (`dict`)
 
-#criar a ficha de um aluno com nome, idade e média
+ Chave -> valor: dados associados
+
+```python
+
+# criar a ficha de um aluno com nome, idade e média
 
 aluno = {"nome": "Ana", "idade": 17, "media": 18}
 
@@ -95,7 +101,8 @@ aluno["media"] = 15
 
 print(aluno["media"])
 
-# As chasves mantém-se
+```
+ As chasves mantém-se
 
-#usar = e não ==
+# usar = e não ==
 
