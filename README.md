@@ -99,3 +99,18 @@ print(aluno["media"])
 
 #usar = e não ==
 
+```
+
+# Ciclos
+
+### While(`while`)
+
+### For(`for`)
+
+### funções usadas com ciclos
+
+- break: termina o ciclo
+- continue: salta para a própria iteração
+- pass: não executa nenhuma ação
+
+
